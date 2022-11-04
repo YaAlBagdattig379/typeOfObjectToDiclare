@@ -3,7 +3,7 @@
  ******** rule of loop which one is more advantage for specific purposes ********
 
 
- 
+
  1..name:- 'regular for loop'>>> 
        for(const i = 0 ; i > 10 ; i++){}
        usage: >>> normally use kora hoi ei ti .
@@ -23,3 +23,6 @@ const bottle = {
     material: 'plustics',
     weight: '20grms'
 };
+for(const pro in bottle){
+    // console.log(Object.values(pro))
+}
