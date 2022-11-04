@@ -34,7 +34,7 @@ const student = {
 };
 // student.takeExam()
 // const remaining1 = student.treatDay(1000,100)
-const remaining2 = student.treatDay(500,200)
+const remaining2 = singer.treatDay(500,200)
 // try{
     // console.log(remaining1);
     console.log(remaining2);''

@@ -1,7 +1,7 @@
 // different way to diclare Object in JavaScript 
 
 //method:- 1.....using object literal
-const student = {name:'Here Alam',age: 20};
+const singer = {name:'Here Alam',age: 20};
 //cosnt student = {name:'hero alam', age : 20}
 // console.log(student); //op>> { name: 'Here Alam', age: 20 }
 
@@ -16,7 +16,7 @@ const humayan = Object.create(null);
 // const human =  Object.create(null/'kono na kono object nam')
 // console.log(humayan); // op >> [Object: null prototype] {}  pls write something whether 'null' or any'object' inside the parrenthesis;
 // use by b..'object'
-const human = Object.create(student);
+const human = Object.create(singer);
 // const humayan = Object.create(student);/// studdent is a object name 
 // console.log(human); // op >> {}   pls write something whether 'null' or any'object' inside the parrenthesis;
 
