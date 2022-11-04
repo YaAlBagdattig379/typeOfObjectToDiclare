@@ -23,6 +23,36 @@ const bottle = {
     material: 'plustics',
     weight: '20grms'
 };
+
+// egp:...1
 for(const pro in bottle){
-    // console.log(Object.values(pro))
+    // console.log(pro) // normaly key name gulo eivabe pawa jai...
+    /* op >>>  name 
+               price
+               material
+               weight
+    */
+    console.log(pro , bottle[pro]);
+    /* ei vabe key and value gulo mile jai..
+    name water-bottle
+    price 50
+    material plustics
+    weight 20grms
+   */
+//    console.log(bottle['price'])
+   
+}
+
+
+
+// advanced by 'entries'  // ei vabe entries use hoi to get keys and value from Object
+// egp:...2
+for(const [key,value] of Object.entries(bottle)){
+    // console.log(key,value);
+    /**
+      name water-bottle
+      price 50
+      material plustics
+      weight 20grms
+     */
 }
